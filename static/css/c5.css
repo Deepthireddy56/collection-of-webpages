@@ -1,0 +1,14 @@
+table,
+      th,
+      td {
+        border: 2px solid palevioletred;
+      }
+
+      .secondTable {
+        border-color: darkmagenta;
+      }
+
+      th,
+      td {
+        padding: 14px;
+      }

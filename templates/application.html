@@ -1,0 +1,197 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application Form</title>
+	<link rel="stylesheet" href="{% static 'css/c3.css' %}">
+</head>
+<body>
+	<div>
+		<form>
+			<fieldset>
+				<legend>Personal information</legend>
+				<table>
+					<tr>
+						<td><label>First Name</label></td>
+						<td><input type="text" name=""></td>
+						<td><label>Middle Name</label></td>
+						<td><input type="text" name=""></td>
+						<td><label>Last Name</label></td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td><label>Father's Name</label></td>
+						<td><input type="text" name=""></td>
+						<td><label>Mother's Name</label></td>
+						<td><input type="text" name=""></td>
+						
+					</tr>
+					<tr>
+						<td><label> Current Address</label></td>
+						<td><input type="text" name=""></td>
+						<td><label>Permanent Address</label></td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr> 
+						<td>Phone Numbers </td>
+					</tr>
+					<tr>
+						<td><label>Landline Number</label></td>
+						<td><input type="text" name=""></td>
+						<td><label>Mobile Number</label></td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td><label>Date of Birth</label></td>
+						<td><input type="date" name=""></td>
+						<td><label>Place of Birth</label></td>
+						<td><input type="text" name=""></td>	
+					</tr>
+					<tr>
+						<td colspan="2"><label>select Gender</label></td>
+						<td><input type="radio" value="male" name="Gender"> male</td>
+					
+						<td><input type="radio" value="female" name="Gender">female</td>
+						
+					</tr>
+					<tr>
+						<td>Highest Qualification</td>
+						<td><input type="text"  name=""></td>
+						<td>Year of Passing</td>
+						<td><input type="month" name=""></td>
+					</tr>
+					<tr>
+						<td ><label>Languages Known</label></td>
+						<td><input type="checkbox" valttue="Telugu" name="Languages">Telugu</td>
+						<td><input type="Checkbox" value="English" name="Languages">English </td>
+						<td><input type="Checkbox" value="Hindi" name="Languages">Hindi</td>
+					</tr>
+					<tr>
+						<td ><label>Select Your Hobbies</label></td>
+						<td><input type="checkbox" value="Eating" name="Hobbies">Eating</td>
+						<td><input type="Checkbox" value="Coding" name="Hobbies">Coding </td>
+						<td><input type="Checkbox" value="Sleeping" name="Hobbies">Sleeping</td>
+					</tr>
+					<tr>
+						<td><label>About Yourself</label></td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Nationality</td>
+						<td><select>
+							<option> American </option>
+							<option> Indian  </option>
+							<option> Others </option>
+						</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Aadhar Number</td>
+						<td><input type="Numbers" name=""></td>
+						<td>PAN Card Number</td>
+						<td><input type="Numbers" name=""></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend> Education Details </legend>
+				<table>
+						<tr>
+							<th> S.NO </th>
+							<th> Qualification </th>
+							<th> Institute/university </th>
+							<th> Year of Passing</th>
+							<th> Marks(%)</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><input type="text" name=""></td>
+							<td><input type="text" name=""></td>
+							<td><input type="month" name=""></td>
+							<td><input type="Number" name=""></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><input type="text" name=""></td>
+							<td><input type="text" name=""></td>
+							<td><input type="month" name=""></td>
+							<td><input type="Number" name=""></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><input type="text" name=""></td>
+							<td><input type="text" name=""></td>
+							<td><input type="month" name=""></td>
+							<td><input type="Number" name=""></td>
+						</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>Work Experience</legend>
+				<table>
+					<tr>
+						<th> S.NO </th>
+						<th> Company </th>
+						<th> Work Roles </th>
+						<th> From Date</th>
+						<th> To Date</th>
+					</tr>
+						<tr>
+							<td>1</td>
+							<td><input type="text" name=""></td>
+							<td><input type="text" name=""></td>
+							<td><input type="date" name=""></td>
+							<td><input type="date" name=""></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><input type="text" name=""></td>
+							<td><input type="text" name=""></td>
+							<td><input type="date" name=""></td>
+							<td><input type="date" name=""></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><input type="text" name=""></td>
+							<td><input type="text" name=""></td>
+							<td><input type="date" name=""></td>
+							<td><input type="date" name=""></td>
+						</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>Other Details</legend>
+				<table>
+					<tr>
+						<td>Job Type</td>
+						<td><input type="radio" value="Permanent" name="Job Type"> Permanent</td>
+						<td><input type="radio" value="Contract" name="Job Type"> Contract</td>
+						<td><input type="radio" value="Others" name="Job Type"> Others</td>
+					</tr>
+					<tr>
+						<td>Date Of joining</td>
+						<td><input type="date" name=""></td>
+						<td>Time Of joining</td>
+						<td><input type="time" name=""></td>
+					</tr>
+					<tr>
+						<td ><label>Prefered Job Loacation </label></td>
+						<td><input type="radio" value="Hyderabad" name="Loacation"> Hyderabad</td>
+						<td><input type="radio" value="Bangalore" name="Location">Bangalore</td>
+						<td><input type="radio" value="Other" name="Location">Other</td>
+					</tr>
+					<tr>
+						<td>Willing to relocate to Hyderabad</td>
+						<td><input type="radio" value="Yes" name=""> Yes</td>
+						<td><input type="radio" value="No" name=""> No</td>
+					</tr>
+					<tr>
+						<td colspan="2px"><input type="checkbox" value="" name="">I here by declare that all the above mentioned information is true as per my knowledge</td>
+					</tr>
+
+				</table>
+			</fieldset>
+		</form>
+
+</body>
+</html> 

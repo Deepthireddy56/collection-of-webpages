@@ -1,0 +1,22 @@
+		body
+		{
+			background-color:black;
+			color: white;
+		}
+		table
+		{
+			width:500 px;
+		}
+		fieldset
+		{
+			border:2px solidgrey;
+			padding: 40px;
+			background-color: rgba(0, 0, 255, 0.4);
+		}
+		fieldset>legend
+		{
+			border: solid blueviolet;
+			padding: 10px 20px;
+			border-radius: 0px 30px 0px 30px;
+			font-family: "comic sans ms" sans-serif;
+		}
